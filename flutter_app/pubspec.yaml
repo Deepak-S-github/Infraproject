@@ -1,0 +1,26 @@
+name: phishing_detector_app
+description: A Flutter app to detect phishing URLs
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  shared_preferences: ^2.2.1
+  provider: ^6.1.1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/news_dummy.json
